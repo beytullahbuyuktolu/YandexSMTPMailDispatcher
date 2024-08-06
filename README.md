@@ -19,3 +19,15 @@ You will need the following to run this project:
 1. Clone the repository:
    ```bash
    git clone https://github.com/beytullahbuyuktolu/YandexSMTPMailDispatcher.git
+2. appsettings.json File:
+   ```bash
+{
+  "EmailSettings": {
+    "Host": "smtp.yandex.com",
+    "Port": 587,
+    "SenderName": "Sender Name",
+    "Username": "email@yourdomain.com",
+    "Password": "password",
+    "EnableSSL": true
+  }
+}
